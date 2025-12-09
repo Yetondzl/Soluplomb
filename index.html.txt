@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Soluplomb — Plomberie à Bruxelles</title>
+  <meta name="description" content="Soluplomb — Plomberie : dépannage, installation, débouchage et recherche de fuite à Bruxelles et alentours. Disponible 24/7. Contactez-nous : 0470 13 71 61" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+  <!-- Styles simples et réactifs -->
+  <style>
+    :root{
+      --primary:#0077b6;
+      --dark:#023047;
+      --muted:#666;
+      --card:#f8fafc;
+      --maxw:1100px;
+      --radius:10px;
+      font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#fff;color:#111;line-height:1.5}
+    .wrap{max-width:var(--maxw);margin:24px auto;padding:16px}
+    header{background:linear-gradient(90deg,var(--primary),var(--dark));color:#fff;padding:28px;border-radius:12px}
+    header .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header h1{margin:0;font-size:1.6rem}
+    header p{margin:4px 0;opacity:.95}
+    .cta-btn{background:#fff;color:var(--dark);padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+    .section{margin-top:18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    h2{color:var(--dark);margin:0 0 8px 0}
+    ul.services{padding-left:1rem;margin:0}
+    .phone-big{font-size:1.2rem;font-weight:700;color:var(--primary)}
+    .hero-img{height:180px;background:linear-gradient(90deg,rgba(0,0,0,0.25),rgba(0,0,0,0.15));border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    footer{margin-top:24px;padding:12px;text-align:center;color:var(--muted);font-size:.9rem}
+
+    /* Form */
+    form input, form textarea, form button {
+      width:100%;padding:10px;border-radius:8px;border:1px solid #dde7ef;margin-top:8px;font-size:0.95rem
+    }
+    form button{background:var(--primary);color:#fff;border:0;font-weight:700;cursor:pointer}
+
+    /* small screen tweaks */
+    @media (max-width:600px){
+      header .top{flex-direction:column;align-items:flex-start}
+      .hero-img{height:140px;font-size:.95rem}
+    }
+
+    .badge{display:inline-block;background:rgba(255,255,255,0.15);padding:6px 10px;border-radius:999px;font-weight:700}
+    .small{font-size:.95rem;color:var(--muted)}
+    .reviews{font-size:.95rem}
+    .faq p{margin:6px 0}
+  </style>
+
+  <!-- JSON-LD (données structurées pour SEO / Google My Business) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Plumber",
+    "name":"Soluplomb",
+    "description":"Soluplomb — Plomberie : dépannage, installation, débouchage et recherche de fuite à Bruxelles et alentours. Contact : 0470 13 71 61",
+    "telephone":"+32470137161",
+    "areaServed":{"@type":"AdministrativeArea","name":"Bruxelles et alentours"},
+    "url": "",
+    "image": "",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bruxelles",
+      "addressCountry": "BE"
+    },
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-20:00"
+  }
+  </script>
+</head>
+<body>
+
+  <div class="wrap">
+    <header>
+      <div class="top">
+        <div>
+          <h1>Soluplomb — Plomberie</h1>
+          <p class="small">Dépannage • Installation • Entretien — Bruxelles et alentours</p>
+        </div>
+        <div style="text-align:right">
+          <div class="badge">Disponible 24/7</div>
+          <div style="height:8px"></div>
+          <a class="cta-btn" href="tel:+32470137161">📞 Appeler : 0470 13 71 61</a>
+        </div>
+      </div>
+
+      <div style="margin-top:14px" class="grid">
+        <div class="card">
+          <div class="hero-img">
+            Photo / Visuel pro (remplace par ton image)
+          </div>
+          <p style="margin-top:10px" class="small">Interventions rapides à Bruxelles, Wemmel, Meise et communes alentours. Travaux de qualité et tarifs transparents.</p>
+        </div>
+
+        <div class="card">
+          <h2>Intervention rapide</h2>
+          <p class="phone-big">0470 13 71 61</p>
+          <p class="small">Click-to-call pour smartphone — nous répondons rapidement.</p>
+          <div style="margin-top:12px">
+            <strong>Zones :</strong> Bruxelles & alentours
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section class="section">
+      <h2>Nos services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Dépannage urgent</h3>
+          <p class="small">Fuites, canalisation bouchée, chauffe-eau en panne — intervention rapide.</p>
+        </div>
+        <div class="card">
+          <h3>Installation</h3>
+          <p class="small">Installation de salles de bain, robinetterie, chaudières et chauffe-eau.</p>
+        </div>
+        <div class="card">
+          <h3>Débouchage & dégorgement</h3>
+          <p class="small">Nettoyage canalisations, débouchage haute pression si nécessaire.</p>
+        </div>
+        <div class="card">
+          <h3>Recherche et réparation de fuite</h3>
+          <p class="small">Détection et réparation professionnelle — solutions durables.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>À propos de Soluplomb</h2>
+          <p>Plombier indépendant basé à Bruxelles — service professionnel, ponctuel et propre. Nous offrons des devis clairs et des solutions adaptées pour les particuliers et petites entreprises.</p>
+          <ul class="small">
+            <li>Expérience : plusieurs années dans le dépannage</li>
+            <li>Travail soigné et garanti</li>
+            <li>Devis gratuit sur demande</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Avis clients</h2>
+          <div class="reviews">
+            <p><strong>Marie P.</strong> — "Intervention rapide, pro et sympa. Je recommande."</p>
+            <p><strong>Jean D.</strong> — "Bon rapport qualité/prix, travail propre."</p>
+            <p class="small">Ajoute ici les vrais avis clients (Google Reviews, Facebook...)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Devis / Contact -->
+    <section class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>Demander un devis</h2>
+          <form action="mailto:contact@soluplomb.example?subject=Demande%20de%20devis&body=Bonjour%20Soluplomb%2C%0A%0AJ'aimerais%20obtenir%20un%20devis%20pour%20..." method="post" enctype="text/plain">
+            <label>Nom</label>
+            <input type="text" name="Nom" placeholder="Ton nom" required>
+
+            <label>Téléphone</label>
+            <input type="tel" name="Téléphone" placeholder="0470 13 71 61" required>
+
+            <label>Adresse / Ville</label>
+            <input type="text" name="Ville" placeholder="Bruxelles, Wemmel, ..." required>
+
+            <label>Message</label>
+            <textarea name="Message" rows="4" placeholder="Explique le problème ou le travail à faire" required></textarea>
+
+            <button type="submit">Envoyer la demande</button>
+          </form>
+          <p class="small" style="margin-top:8px">Remarque : si le formulaire n'ouvre pas ton client mail, envoie un message à <strong>0470 13 71 61</strong> (WhatsApp/Call).</p>
+        </div>
+
+        <div class="card">
+          <h2>Contact rapide</h2>
+          <p class="small">📞 <strong>0470 13 71 61</strong></p>
+          <p class="small">📍 Zones : Bruxelles et alentours</p>
+          <p class="small">🕒 Horaires indicatifs : Lu–Sa 08:00–20:00 (dépannage 24/7 selon disponibilité)</p>
+
+          <h3 style="margin-top:12px">FAQ rapide</h3>
+          <div class="faq small">
+            <p><strong>Intervenez-vous en urgence ?</strong><br>Oui — appelez 0470 13 71 61 pour prioriser une intervention.</p>
+            <p><strong>Faites-vous des installations complètes de salle de bain ?</strong><br>Oui, installation complète + finition (poss. partenariats pour carrelage).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Soluplomb — Plomberie · Téléphone : 0470 13 71 61 · Bruxelles et alentours
+    </footer>
+  </div>
+
+  <script>
+    // mettre l'année automatiquement
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
